@@ -1,0 +1,26 @@
+{
+  "name": "bylina-live",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Былина.Live — интерактивные ИИ-аудиоспектакли с AR для музеев, парков и отелей",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 4173",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 4173"
+  },
+  "dependencies": {
+    "lucide-react": "^1.74.0",
+    "qrcode": "^1.5.4",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.5",
+    "@vitejs/plugin-react": "^6.3.0",
+    "playwright-core": "^1.65.1",
+    "tailwindcss": "^4.3.5",
+    "vite": "^8.3.8",
+    "vite-plugin-singlefile": "^2.3.4"
+  }
+}
